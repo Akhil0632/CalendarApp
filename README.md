@@ -64,3 +64,24 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+### Project Setup
+
+- **Clone the repo - git clone https://github.com/Akhil0632/CalendarApp.git**
+- **Create .env and copy .env.example**
+- **Install dependencies - composer install**
+- **Make sure you have your key generated. If not, Generate key with this command - php artisan key:generate**
+- **Install migration - php artisan migrate**
+- **Install Fullcalendar Command using NPM - npm install @fullcalendar/core @fullcalendar/daygrid @fullcalendar/timegrid @fullcalendar/interaction**
+- **Install Bootstrap using NPM - npm install bootstrap**
+- **Run npm - npm run dev**
+- **Run project - php artisan serve**
+
+### URL of Project 
+- **Visit the url http://127.0.0.1:8000/events to get into the application. Using this URL you can create, view, update and delete the events.**
+- **Using the url http://127.0.0.1:8000/events you can filter the events according to day, week, month and year.**
+- **Visit the url http://127.0.0.1:8000/calendar to get into the application. Using this URL you can see calendar with events show according to         day.**
+
+
